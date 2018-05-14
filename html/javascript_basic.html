@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style type="text/css">
+			/*부모자식 관계로 선택자 지정할수있다.*/
+			/*ol안에 list선택시 부모관계이용*/
+			/*ul>.list{} 가능*/
+			/*ul>li.list{} 가능*/
+			/*반대로 자식관계로*/
+			/*관계 표기시 한칸띄우면 부모자식없이 그냥 하위 해당되는것들선택됨*/
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<h1>test</h1>
+			<ul>
+				<li>list1</li>
+				<li class="list">
+					<ol>
+						<li>
+							<a href="#">링크</a>
+						</li>
+						<li class="list">
+							<a href="#">링크2</a>							
+						</li>
+					</ol>
+				</li>
+			</ul>
+			
+		</div>
+		<script type="text/javascript">
+		
+		</script>
+	
+	</body>
+</html>
