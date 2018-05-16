@@ -7,7 +7,7 @@ ul,ol,li {margin: 0; padding: 0; list-style: none;}
 a {text-decoration: none; color: inherit;}
 .clearfix::after,
 .clearfix:after{
-	content: " "; display: block; width: 650px; height: 0; clear: both; 
+	content: " "; display: block; width: 700px; height: 0; clear: both; 
 }
 
 #wrap {width: 700px; height: auto; margin: 50px auto;}
