@@ -13,21 +13,23 @@ a {text-decoration: none; color: inherit;}
 
 #wrap {width: 980px; height: auto; margin: 60px auto;}
 #wrap > div {width: 100%;} 
-  #tophead {height: 33px; background-color: #d79;}
+
+  #tophead {height: 33px; background-color: #fce;}
+
   #header {height: 77px;}
   #header > ul {width: 100%; height: 100%;}
   #header > ul > li {height: 100%; float: left;}
-  #header > ul > li:nth-child(1) {width: 264px; background-color: #f22;}
-  #header > ul > li:nth-child(2) {width: 210px; background-color: #33f;}
-  #header > ul > li:nth-child(3) {width: 346px; background-color: #3f4;}
-  #header > ul > li:nth-child(4) {width: 80px; background-color: #5fa;}
-  #header > ul > li:nth-child(5) {width: 80px; background-color: #fa1;}
+  #header > ul > li:nth-child(1) {width: 264px; background-color: #cec;}
+  #header > ul > li:nth-child(2) {width: 210px; background-color: #eda;}
+  #header > ul > li:nth-child(3) {width: 346px; background-color: #efa;}
+  #header > ul > li:nth-child(4) {width: 80px; background-color: #afa;}
+  #header > ul > li:nth-child(5) {width: 80px; background-color: #ebc;}
 
+  #content {height: 426px; background-color: #caf;}
 
-  #content {height: 426px; background-color: #f5f;}
-  #sub_con {height: 92px; background-color: #ad2;}
-  #sub_con > ul {width: 100%; height: 100%; background-color: #650; padding: 36px 172px 38px 90px; box-sizing: border-box;}
-  #sub_con > ul > li {height: 17px; background-color: #a80; float: left;}
+  #sub_con {height: 92px;}
+  #sub_con > ul {width: 100%; height: 100%; background-color: #fea; padding: 36px 172px 38px 90px; box-sizing: border-box;}
+  #sub_con > ul > li {height: 17px; background-color: #fb8; float: left;}
   #sub_con > ul > li:nth-child(1) {width: 40px; margin-right:52px; }
   #sub_con > ul > li:nth-child(2) {width: 58px; margin-right:42px;}
   #sub_con > ul > li:nth-child(3) {width: 122px; margin-right:42px;}
@@ -36,4 +38,4 @@ a {text-decoration: none; color: inherit;}
   #sub_con > ul > li:nth-child(6) {width: 56px; margin-right:40px;}
   #sub_con > ul > li:nth-child(7) {width: 44px; }
 
-  #footer {height: 138px; background-color: #a5f;}
+  #footer {height: 138px; background-color: #abf;}
