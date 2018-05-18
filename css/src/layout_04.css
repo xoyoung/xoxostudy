@@ -34,7 +34,9 @@ a {text-decoration: none; color: inherit;}
   #sub_con > ul > li:nth-child(2) {width: 58px; margin-right:42px;}
   #sub_con > ul > li:nth-child(3) {width: 122px; margin-right:42px;}
   #sub_con > ul > li:nth-child(4) {width: 56px; margin-right:40px;}
-  #sub_con > ul > li:nth-child(5) {width: 85px; margin-right:40px;}
+  #sub_con > ul > li:nth
+
+  -child(5) {width: 85px; margin-right:40px;}
   #sub_con > ul > li:nth-child(6) {width: 56px; margin-right:40px;}
   #sub_con > ul > li:nth-child(7) {width: 44px; }
 
