@@ -1,0 +1,30 @@
+/* position_03.css */
+
+h2 {text-align: center;}
+#wrap {
+  margin: auto; padding: 10px;
+  width: 960px; height: 5000px;
+  background-color: #0af;
+  background-image: linear-gradient(#ff0, #fac);
+}
+
+  .popup_center {
+    position: fixed;
+    left: 50%; margin-left: -600px;
+    top: 50%; margin-top: -200px;
+    z-index: 100;
+    width: 1200px; height: 400px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,0.7);
+  }
+  .popup_center > h2{line-height: 400px;}
+  /*.popup_center.none {display: none;}*/
+
+  .side_ad {
+    width: 150px; height: 400px; 
+    background-color: #402;
+    position: fixed; top: 0; left: 50%; margin-left: 500px;
+  }
+  
+  .side_ad > h2 {color: #fff;}
