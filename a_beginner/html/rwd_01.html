@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- rwd_01..html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.2">
+  <link rel="stylesheet" type="text/css" href="../css/base/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../css/src/rwd_01.css" />
+  <!--  ie  -->
+
+  <!-- cc:ie6 -->
+  <!-- 주석태그단축키 -->
+  <!-- [if lte IE9] > 
+    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script> 
+    <script src="../ie/pie/PIE_IE0.js"></script> 
+
+  < [!endif] -->
+
+<!--  favicon  -->
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png /">
+  <title>responsive web</title>
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <!--  16px 12pt 100% 1em 1rem  -->
+    <!--  vw vh
+      * vw: device의 가로값 전체를 100%로 설정해서 사용하는 단위
+      * 가로값 전체를 %로 사용하지 않고 vw 사용 한다는 규칙 
+
+      ** vh: device의 세로값 전체를 100%로 설정해서 사용하는 단위
+      * 세로값 전체를 %가 아닌 vh라는 단위를 사용
+      (safari ,ie최신에서도 원활하게 동작하지 않을 수도 있다.)
+
+      * 공식: 사용할 크기 / 브라우저 기준크기 * 100;
+
+      ** 실제 사용 예: 브라우저크기 600px에서 가로값 300px, 세로값 50px의 상자를
+      브라우저의 크기가 변할 때 마다, 일정비율로 변하게 만들경우.
+      (브라우저 : 1200px , 가로 600px, 세로 100px)
+      단위 적용시 가로는 300/600*100 = 50vw
+      단위 적용시 세로는 50/600*100 = 8.333333vw
+
+      * vw, vh 적용시 계산수치 주석첨부 필
+
+ 
+    -->
+
+
+
+    <div class="modal">
+      <h1>꺄아아아아아아</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat magni ea, quisquam dolorem. Et laudantium veniam veritatis, facilis reiciendis iure accusamus? Obcaecati quisquam dolor inventore, evenit, aliquid praesentium cupiditate nemo.</p>  
+    </div>
+    <div class="img1"></div>  
+    <div class="img2"></div>  
+
+
+  </div>
+
+
+  <!-- javascript -->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/rwd_01.js"></script>
+</body>
+</html>
